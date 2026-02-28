@@ -1,0 +1,118 @@
+Software Requirements 
+
+Introduction
+Software Requirements describe what a software system should do and how it should perform. They clearly define the needs and expectations of users, clients, and stakeholders before development begins.
+Software requirements act as a foundation for the entire Software Development Life Cycle (SDLC) because development, testing, and deployment are all based on these requirements.
+If requirements are unclear or incorrect, the final software may fail even if it has no technical defects.
+
+What are Software Requirements?
+Software requirements are a detailed description of:
+
+System features
+Functional behavior
+Performance expectations
+Constraints and conditions
+They help developers understand what to build and help testers understand what to test.
+
+Types of Software Requirements
+
+Software requirements are mainly divided into two categories:
+
+1. Functional Requirements
+Definition
+Functional requirements describe what the system should do. They define system features, functions, and operations.
+Examples
+User should be able to register.
+User login with username and password.
+Add products to cart.
+Make online payment.
+Generate reports.
+
+Characteristics
+Describe system actions.
+Directly related to business logic.
+Can be verified using test cases.
+
+Example (E-commerce Website)
+User can search products.
+User can place orders.
+Admin can manage inventory.
+
+2. Non-Functional Requirements
+Definition
+Non-functional requirements describe how the system should perform rather than what it does.
+They focus on quality attributes of the software.
+
+Types with Examples
+Type	                    Example
+Performance	     Page loads within 2 seconds
+Security	      User data must be encrypted
+Usability	       Easy navigation interface
+Reliability	    System available 99.9% time
+Scalability   	Supports 10,000 users simultaneously
+Compatibility	     Works on mobile and desktop
+Importance      Non-functional requirements improve user experience and system efficiency.
+
+Requirement Documents
+Requirements are documented formally so all teams understand them clearly.
+
+1. BRD (Business Requirement Document)
+Prepared by Business Analysts.
+Contains business goals and customer needs.
+Written in simple business language.
+
+Example:
+Customer wants an online food ordering system.
+
+2. SRS (Software Requirement Specification)
+Detailed technical document.
+Used by developers and testers.
+Contains functional and non-functional requirements.
+Includes:
+   System features
+   User interfaces
+   Constraints
+   Performance requirements
+   Requirement Gathering Process
+
+The process of collecting requirements includes:
+Requirement Elicitation
+        Gathering requirements from stakeholders through meetings and discussions.
+Requirement Analysis
+        Understanding and refining requirements.
+Requirement Documentation
+        Writing requirements in BRD/SRS.
+Requirement Validation
+        Confirming requirements with stakeholders.
+Requirement Management
+        Handling requirement changes.
+
+Characteristics of Good Requirements
+ Good software requirements should be:
+              Clear – Easy to understand.
+              Complete – Covers all functionalities.
+              Consistent – No contradictions.
+              Testable – Can be verified using test cases.
+              Feasible – Possible to implement.
+
+Importance of Software Requirements in Testing
+         For testers, requirements are very important because they help to:
+Create test scenarios.
+Design test cases.
+Understand expected results.
+Validate system functionality.
+Ensure product meets user needs.
+Without proper requirements, testing cannot be performed effectively.
+
+Example Scenario
+Banking Application Requirement
+Functional Requirement
+User can transfer money.
+Non-Functional Requirement
+Transaction should complete within 3 seconds.
+System must ensure secure authentication.
+Tester will create test cases based on these requirements.
+
+Software requirements are the backbone of software development and testing. 
+Clear and well-defined requirements help teams build the correct product, reduce defects, save cost, and improve software quality. 
+Proper requirement documentation ensures smooth communication between stakeholders, developers, and testers.
