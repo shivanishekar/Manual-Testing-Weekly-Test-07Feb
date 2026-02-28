@@ -1,0 +1,44 @@
+1. Principles of Testing
+
+Software testing follows certain basic principles that help testers perform testing effectively and avoid mistakes.
+1. Testing Shows Presence of Defects
+   Testing helps us find bugs in software, but it cannot guarantee that software has zero defects.
+   Example:
+        Even after testing a mobile app many times, a new bug may appear later.
+        Meaning: Testing reduces risk, not removes it completely.
+
+2. Exhaustive Testing is Impossible
+Testing every input, every combination, and every scenario is impossible because software can have thousands or millions of possibilities.
+Example:
+     Password field with 8 characters can have millions of combinations.
+     So testers test important and risky areas instead of everything.
+
+3. Early Testing Saves Time and Cost
+Finding defects early (requirement/design phase) is cheaper than fixing them after release.
+Example:
+     Requirement phase fix → minutes
+     Production bug fix → days + customer impact
+
+4. Defect Clustering
+Most defects are usually found in a small part of the application.
+Example:
+    Login module may contain more bugs than other pages.
+    This is also called 80/20 rule:
+                 80% bugs exist in 20% modules.
+
+5. Pesticide Paradox
+Running the same test cases again and again will stop finding new bugs.
+Solution:
+✔ Update test cases
+✔ Add new scenarios
+
+6. Testing Depends on Context
+Testing approach changes based on application type.
+Examples:
+        Banking app → Security testing important
+        Gaming app → Performance & usability important
+
+7. Absence of Errors Fallacy
+Software without bugs is useless if it does not meet user needs.
+Example:
+     App works perfectly but customer requirement is wrong.
