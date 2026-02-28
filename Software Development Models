@@ -1,0 +1,136 @@
+Software Development Models describe the process followed to develop software step-by-step from requirement gathering to delivery and maintenance.
+
+Each model defines:
+  How work is organized
+  When testing happens
+  How changes are handled
+
+1. Waterfall Model
+Definition
+Waterfall model is a linear and sequential SDLC model where each phase must be completed before moving to the next phase.
+
+Phases :
+       Requirement Analysis
+         System Design 
+     Development (Coding)
+         Testing
+        Deployment
+       Maintenance
+Explanation :
+Requirements are collected first.
+Design is prepared based on requirements.
+Developers write code.
+After development, testing begins.
+Product is deployed to users.
+
+Advantages
+ Simple and easy to understand
+ Clear documentation
+ Well structured
+
+Disadvantages
+ Changes are difficult later
+ Testing starts very late
+ Not suitable for changing requirements
+
+Best Used For
+Small projects
+Stable requirements
+
+2. V-Model (Verification & Validation Model)
+Definition
+V-Model is an extension of the Waterfall model where testing activities are planned parallel to development phases.
+
+Structure
+Verification Phase        Validation Phase
+
+Requirement             Acceptance Testing
+System Design           System Testing
+Architecture Design     Integration Testing
+Coding                  Unit Testing
+Explanation
+
+Each development stage has a corresponding testing stage.
+
+Example:
+Requirement → Acceptance Test planning
+Design → System test planning
+
+Advantages
+ Early defect detection
+ Better quality assurance
+ Clear testing strategy
+
+Disadvantages
+Less flexible
+Not suitable for frequent requirement changes
+
+Used In
+Banking systems
+Healthcare software
+
+3. Agile Model
+Definition
+Agile is an iterative and incremental model where software is developed in small cycles called Sprints.
+Process
+Plan → Design → Develop → Test → Review → Release
+(repeated every sprint)
+Each sprint usually lasts 2–4 weeks.
+
+Key Features
+Continuous testing
+Customer involvement
+Frequent releases
+Quick feedback
+
+Advantages
+   Flexible to changes
+   Faster delivery
+   Better customer satisfaction
+
+Disadvantages
+   Requires experienced team
+   Documentation may be less
+
+Popular Agile Frameworks
+Scrum
+Kanban
+
+4. Spiral Model
+Definition
+Spiral model combines Waterfall + Iterative model and focuses mainly on risk analysis.
+
+Steps in Each Spiral
+Planning
+Risk Analysis
+Development
+Testing
+These steps repeat in loops (spirals).
+
+Advantages
+ Risk identification early
+ Suitable for large projects
+
+Disadvantages
+ Expensive
+ Complex management
+
+Used For
+Large enterprise systems
+High-risk projects
+
+5. Incremental Model
+Definition
+Software is developed and delivered in small functional parts (increments).
+Example
+  Version 1 → Login feature
+  Version 2 → Dashboard
+  Version 3 → Payment module
+
+Advantages
+  Early product delivery
+  Easy testing
+  Changes manageable
+
+Disadvantages
+   Requires proper planning
