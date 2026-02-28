@@ -1,0 +1,119 @@
+Different Testing Levels 
+Introduction
+     Testing levels define the different stages at which software testing is performed during the Software Development Life Cycle (SDLC). Each level focuses on testing a specific part of the application, starting from small components and moving towards the complete system.
+     The main purpose of testing levels is to identify defects early and ensure the software works correctly at every stage of development.
+
+1. Unit Testing
+Definition
+Unit Testing is the first level of testing where individual components or smallest units of the program are tested separately.
+Performed By
+    Developers.
+    Purpose
+To verify that each function or module works correctly.
+To check program logic and internal functionality.
+
+Example
+Testing a calculator’s addition function independently:
+Input: 5 + 3
+Expected Output: 8
+
+Characteristics
+    Focuses on single module/function.
+    Done before integration.
+    Mostly automated.
+
+Advantages
+Detects bugs early.
+Easier debugging.
+Improves code quality.
+
+2. Integration Testing
+Definition
+    Integration Testing checks whether different modules or components of the application work correctly when combined together.
+
+Purpose:
+To verify interaction between modules.
+To check data flow and communication.
+
+Example
+Login module integrated with database:
+User enters credentials.
+System validates data from database.
+
+Types of Integration Testing
+Top-Down Integration
+      Testing starts from main module to submodules.
+Bottom-Up Integration
+       Testing starts from smaller modules upward.
+Big Bang Integration
+       All modules combined and tested together.
+
+Advantages
+Detects interface defects.
+Ensures modules work together properly.
+
+3. System Testing
+Definition
+       System Testing is performed on the complete and fully integrated application to verify that the system meets specified requirements.
+
+Performed By
+Testers (QA Team).
+
+Purpose
+Validate entire system behavior.
+Check functional and non-functional requirements.
+
+Types of System Testing
+Functional Testing
+Performance Testing
+Security Testing
+Usability Testing
+Compatibility Testing
+
+Example
+Testing full online shopping application:
+Login → Add product → Payment → Order confirmation.
+
+Advantages
+Ensures end-to-end functionality.
+Validates real-world usage scenarios.
+
+4. Acceptance Testing
+Definition
+        Acceptance Testing is the final level of testing conducted to verify whether the software meets business requirements and is ready for release.
+
+Performed By:
+Clients, stakeholders, or end users.
+
+Purpose
+Confirm software satisfies user needs.
+Provide final approval before deployment.
+
+Types of Acceptance Testing
+User Acceptance Testing (UAT)
+        End users validate system functionality.
+Alpha Testing
+    Done internally at developer’s site.
+Beta Testing
+    Done by real users in real environment.
+
+Example
+Client tests application to ensure business workflow works correctly before launch.
+
+Advantages
+Confirms customer satisfaction.
+Reduces production failures.
+
+Testing Levels Flow
+Unit Testing
+      ↓
+Integration Testing
+      ↓
+System Testing
+      ↓
+Acceptance Testing
+
+Testing moves from small components → complete system validation.
+
+Different testing levels help ensure software quality by testing the application step-by-step. Each level focuses on different objectives, 
+starting from individual modules and ending with user validation. This structured approach helps detect defects early and ensures reliable software delivery.
