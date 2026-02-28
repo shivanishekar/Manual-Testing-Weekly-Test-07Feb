@@ -1,0 +1,114 @@
+Equivalence Partitioning and Boundary Value Analysis
+
+Introduction
+Equivalence Partitioning (EP) and Boundary Value Analysis (BVA) are important Black Box Testing techniques used in software testing. These techniques help testers design effective test cases while reducing the total number of test inputs.
+Instead of testing every possible value, testers select representative values that provide maximum defect detection with minimum effort.
+
+1. Equivalence Partitioning (EP)
+Definition
+Equivalence Partitioning is a testing technique where input data is divided into different groups called equivalence classes or partitions. Each group contains values that are expected to behave in the same way.
+Instead of testing all values in a group, the tester selects one representative value from each partition.
+
+Concept
+Inputs are divided into:
+            Valid partitions (acceptable inputs)
+            Invalid partitions (unacceptable inputs)
+If one value works correctly, it is assumed that all values in that partition will behave similarly.
+
+Example 1 – Age Validation
+
+System accepts age between 18 and 60.
+
+Partitions
+Partition Type	             Range
+Invalid	                  Less than 18
+Valid	                     18 to 60
+Invalid              	Greater than 60
+
+Test Cases
+Test Value	                 Reason
+   15	                 Invalid partition (<18)
+   30	                   Valid partition
+   65	                Invalid partition (>60)
+
+ Only 3 test cases instead of testing all ages.
+
+Example 2 – Marks Field
+Allowed marks: 0–100
+
+Partitions:
+Invalid          below 0
+Valid            0–100
+Invalid        above 100
+
+Test values:
+-5
+50
+120
+
+Advantages of Equivalence Partitioning
+
+Reduces number of test cases.
+Saves testing time.
+Provides good test coverage.
+Easy to design test cases.
+
+Limitations
+May miss errors at boundary limits.
+Requires proper understanding of input ranges.
+
+2. Boundary Value Analysis (BVA)
+Definition
+Boundary Value Analysis is a testing technique that focuses on testing values at the edges or boundaries of input ranges because defects are most likely to occur at boundary limits.
+
+Concept
+Instead of testing middle values, testers check:
+                                  Minimum value
+                                  Maximum value
+                             Just below minimum
+                             Just above minimum
+                            Just below maximum
+                            Just above maximum
+
+Example 1 – Age Validation
+
+Valid range: 18–60
+
+Boundary               Test Values
+Test Value	           Description
+   17	                Below minimum
+   18              	Minimum boundary
+   19	                Above minimum
+   59	               Below maximum
+   60	              Maximum boundary
+   61	               Above maximum
+
+These values help detect edge-condition defects.
+
+Advantages of Boundary Value Analysis
+Detects edge-related defects.
+Highly effective technique.
+Improves test accuracy.
+
+Limitations
+
+Works mainly for range-based inputs.
+Cannot identify all logical errors.
+
+                     Difference Between EP and BVA
+Equivalence Partitioning	                     Boundary Value Analysis
+Divides inputs into groups	                  Focuses on boundary limits
+Tests representative values                    	Tests edge values
+Reduces test cases	                           Finds boundary defects
+General input testing	                          Edge condition testing
+
+Combined Use of EP & BVA
+In real testing, both techniques are used together:
+EP   reduces number of test cases.
+BVA  ensures boundary conditions are tested.
+
+This combination provides maximum coverage with minimum effort.
+
+Equivalence Partitioning and Boundary Value Analysis are efficient test design techniques that help testers create optimized test cases. 
+EP ensures coverage of input groups, while BVA verifies system behavior at critical boundary values. 
+Together, they improve software quality and reduce testing time.
